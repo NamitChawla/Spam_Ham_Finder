@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Download results File</title>
+    <link rel="stylesheet" href="../static/css/css/all.css"/>
+    <link rel="stylesheet" href="../static/css/style.css"/>
+</head>
+<body>
+<div class="main", style="background-image: linear-gradient(rgba(0,0,0,0.4),
+                rgba(0,0,0,0.4)),url('../static/img/background.jpg');
+                height:100%;
+                width:100%;
+                background-position: center;
+                background-size: cover;
+                position: absolute;">
+<h1 style="background-color:powderblue;"style="background-color:white;"> Results </h1><br><br><br><br>
+    <form action="/download_file" method="POST">
+        <a class="btn3" href="{{url_for('download_file')}}">DOWNLOAD</a><br><br><br><br>
+    </form>
+</div>
+</body>
+</html>

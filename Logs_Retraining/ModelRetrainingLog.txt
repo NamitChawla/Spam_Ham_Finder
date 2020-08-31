@@ -1,0 +1,14 @@
+2020-08-28/23:59:30		Retraining started
+2020-08-28/23:59:30		Start of model training
+2020-08-28/23:59:32		Preprocessing completed
+2020-08-29/00:00:18		deleted existing models
+2020-08-29/00:00:18		deleted existing models
+2020-08-29/00:00:18		End of model training
+2020-08-29/00:00:18		Successfully retrained
+2020-08-29/00:12:16		Retraining started
+2020-08-29/00:12:16		Start of model training
+2020-08-29/00:12:18		Preprocessing completed
+2020-08-29/00:13:05		deleted existing models
+2020-08-29/00:13:05		deleted existing models
+2020-08-29/00:13:05		End of model training
+2020-08-29/00:13:05		Successfully retrained

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload txt file here</title>
+    <link rel="stylesheet" href="../static/css/css/all.css"/>
+    <link rel="stylesheet" href="../static/css/style.css"/>
+</head>
+<body>
+<div class="main", style="background-image: linear-gradient(rgba(0,0,0,0.4),
+                rgba(0,0,0,0.4)),url('../static/img/background.jpg');
+                height:100%;
+                width:100%;
+                background-position: center;
+                background-size: cover;
+                position: absolute;">
+<h1 style="background-color:powderblue;"style="background-color:white;"> UPLOAD YOUR FILES </h1><br><br>
+    <h2 style="background-color:powderblue;"style="background-color:white;"> Make sure to upload CSV File only </h2><br><br>
+    <h3 style="background-color:powderblue;"style="background-color:white;"> Number of columns should be ONE </h3><br><br>
+        <form action="/csv" method="POST" enctype="multipart/form-data">
+            <input type="file" class="field" name="upload_file" id="upload_file" style="background-color:white;"><br>
+            <input type="submit" class="btn" value="Submit csv file">
+        </form>
+</div>
+</body>
+</html>
