@@ -13,3 +13,4 @@ Spam email is unsolicited and unwanted junk email sent out in bulk to an indiscr
 ## Data
 
 I am using Spambase dataset from UCI’s ML Repository.
+Link:- https://archive.ics.uci.edu/ml/datasets/spambase
