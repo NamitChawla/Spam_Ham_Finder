@@ -6,12 +6,14 @@ from imblearn.over_sampling import SMOTE
 from app_logging import logfile
 import os
 
+# trainAPI class
 class TrainApi:
 
     def __init__(self, stopWordsFilePath):
         self.stop_words =stopWordsFilePath
         self.log_writer = logfile.App_logger()
-
+    
+    # train the model
     def training_model(self, trainingFilePath, modelPath, retraining_file_object):
         self.log_writer.log(retraining_file_object, 'Start of model training')
 
