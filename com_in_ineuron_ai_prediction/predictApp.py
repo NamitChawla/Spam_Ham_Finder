@@ -2,6 +2,7 @@ from com_in_ineuron_ai_utils.utils import data_preprocessing_predict, df_preproc
 import pickle
 from app_logging import logfile
 
+# predictApi class for prediction
 class predictApi:
     def __init__(self, stopwordsFilepath):
         self.stop_words_path =stopwordsFilepath
