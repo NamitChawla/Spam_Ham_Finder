@@ -9,6 +9,7 @@ from com_in_ineuron_ai_training.trainApp import TrainApi
 from app_logging import logfile
 import os
 
+# Flask constructor takes the name of current module (__name__) as argument.
 app = Flask(__name__)
 dashboard.bind(app)
 CORS(app)
@@ -149,6 +150,7 @@ def download_file():
         raise e
 
 port = int(os.getenv("PORT"))
+# main driver function
 if __name__=="__main__":
     #app.run(debug=True)
     flaskapp = Appapi()
